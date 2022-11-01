@@ -6,7 +6,7 @@ Different level of simulation are provided: `xcm-simulator` and `xcm-emulator`.
 
 ## xcm-simulator
 
-**UPDATE**: `xcm-simulator` has been merged into [Polkadot repo](https://github.com/paritytech/polkadot/tree/master/xcm/xcm-simulator), and not actively maintained here anymore.
+**UPDATE**: `xcm-simulator` has been merged into [Polkadot repo](https://github.com/purestake/polkadot/tree/master/xcm/xcm-simulator), and not actively maintained here anymore.
 
 `xcm-simulator` uses *mock* relay chain and parachain runtime. It allows minimum runtime modules for XCM testing and playground, and thus has less compiling overhead depending on the specific config. Typical use case is unit tests of XCM related pallets.
 
